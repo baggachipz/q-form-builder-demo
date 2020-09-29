@@ -99,6 +99,19 @@ export default {
     background-repeat no-repeat
     background-position 0 40px
 
+  .q-editable-element {
+    position: relative;
+    padding: 5px;
+  }
+
+  .overlay {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+
   .q-editable-element.selected
     background-color $blue-grey-1
 
